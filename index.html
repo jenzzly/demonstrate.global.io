@@ -1,128 +1,406 @@
 <!DOCTYPE html>
-<html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Demonstrate Global</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Demonstrate Global" />
-	<meta name="keywords" content="Demonstrate Global" />
-	<meta name="author" content="Keith Kamoso" />
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Demonstrate Global</title>
+    <!-- Plugins CSS -->
+    <link
+      rel="stylesheet"
+      href="./plugins/bootstrap-4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./plugins/meanmenu/meanmenu.css">
 
-	<!-- <link href='https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700' rel='stylesheet' type='text/css'> -->
-	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+    <!-- fonts -->
+    <link rel="stylesheet" href="./fonts/ep-icon-fonts/css/ep-font.css" />
+    <link rel="stylesheet" href="./fonts/fontawesome-5/css/all.min.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="./css/settings.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+    <!-- Site Header -->
+      <header class="site-header">
+              <div class="container">
+                  <div class="row justify-content-center align-items-center position-relative">
+                      <div class="col-sm-3 col-6 col-lg-2 col-xl-2 order-lg-1">
+                          <div class="brand">
+                              <h2><a href="">DG.</a></h2>
+                          </div>
+                      </div>
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+                      <div class="col-sm-7 col-lg-2 col-xl-2 order-lg-3 d-none d-sm-block">
+                        <div class="header-btns">
+                            <div class="btn-2">
+                              <ul class="main-menu">
+                                  <li class="menu-item has-dropdown">
+                                      <a href="#">Contact</a>
+                                      <ul class="menu-dropdown">
+                                          <li class="single-item">
+                                              <a href="https://twitter.com/IamKeithKamoso" target="_blank">
+                                              <h3>@IamKeithKamoso <img src="image/twitter.png" width="20"></h3>
+                                              </a>
+                                          </li>
+                                      </ul>
+                                  </li>
+                                </ul>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+                            </div>
+                        </div>
+                    </div>
 
-	</head>
-	<body>
+                      <div class="col-sm-2 col-6 col-lg-7 offset-lg-1 col-xl-6 offset-xl-2 order-lg-2 position-static">
+                        <div class="main-navigation">
+                            <ul class="main-menu">
+                                <li class="menu-item">
+                                    <a href="#"><h6>Home</h6></a>
+                                </li>
+                                <li class="menu-item has-dropdown">
+                                  <a href="#features"><h6>Services</h6></a>
+                                  <ul class="menu-dropdown">
+                                      <li class="single-item">
+                                          <a href="../s01/index.html">
+                                          <h3>Business Advisory</h3>
+                                          <p>Best for new businesses</p>
+                                          </a>
+                                      </li>
+                                      <li class="single-item">
+                                          <a href="../s02/index.html">
+                                              <h3>Marketing strategies</h3>
+                                              <p>Best for already esablished businesses</p>
+                                          </a>
+                                      </li>
+                                      <li class="single-item">
+                                          <a href="../s03/index.html">
+                                              <h3>Management</h3>
+                                          <p>Best for already esablished businesses</p>
+                                      </a>
+                                      </li>
+                                      <li class="single-item">
+                                          <a href="../s04/index.html">
+                                                  <h3>Business Startup</h3>
+                                              <p>Generate Ideas</p>
+                                          </a>
+                                      </li>
+                                  </ul>
+                                </li>
+                                <li class="menu-item "><a href="#features"><h6>About us</h6></a></li>
+                                <li class="menu-item"><a href="#contact"><h6>Media</h6></a></li>
+                                </ul>
+                        </div>
+                        <div class="mobile-menu"></div>
+                      </div>
+                  </div>
+              </div>
+      </header>
 
-	<div class="fh5co-loader"></div>
+      <!-- Hero-Area starts -->
 
-	<div id="page">
+      <section class="hero-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-xl-5 order-2 order-md-1">
+              <div class="hero-content">
+                <img src="image/logo.png" alt=""/>
+                <p>
+                  <i>We provide our clients with timely desired resources to increase their business potential.</i>
+                </p>
+              </div>
+            </div>
 
-	<div id="fh5co-container" class="js-fullheight">
-		<div class="countdown-wrap js-fullheight">
-			<div class="row">
-				<div class="col-md-12 text-center">
-					<div class="display-t js-fullheight">
-						<div class="display-tc animate-box">
-							<nav class="fh5co-nav" role="navigation">
-								<div id="fh5co-logo"><a href="index.html">DG<strong>.</strong></a></div>
-							</nav>
-							<h1>We Are Coming Soon!</h1>
-							<div class="simply-countdown simply-countdown-one"></div>
-							<div class="row">
-								<div class="col-md-12 desc">
-									<h2>Our webiste is opening soon. <br> Please register to get notified when it's ready!</h2>
-									<form class="form-inline" id="fh5co-header-subscribe">
-										<div class="col-md-12 col-md-offset-0">
-											<div class="form-group">
-												<form action="https://formspree.io/xbjzdkqa" method="POST">
-												  <input type="text" class="form-control" id="email" placeholder="Enter your email">
-												  <button type="submit" class="btn btn-primary"> Subscribe </button>
-												</form>
-											</div>
-										</div>
-									</form>
-									<ul class="fh5co-social-icons">
-										<li><a href="https://twitter.com/IamKeithKamoso"><i class="icon-twitter-with-circle"></i></a></li>
-										<!-- <li><a href="#"><i class="icon-facebook-with-circle"></i></a></li>
-										<li><a href="#"><i class="icon-linkedin-with-circle"></i></a></li>
-										<li><a href="#"><i class="icon-dribbble-with-circle"></i></a></li> -->
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="bg-cover js-fullheight" style="background-image:url(images/img_bg.png);">
+            <div class="col-lg-6 col-md-6 col-xl-7 order-1 order-md-2">
+              <div class="hero-image shape">
+                <img src="image/hero.png" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		</div>
-	</div>
-	</div>
+      <!-- Clients starts -->
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
+      <section class="client-section">
+        <div class="container">
+          <div class="client-title">
+            <h2>Our Partners</h2>
+          </div>
+          <div class="client-brand-wrapper">
+            <div class="single-brand">
+              <img src="image/partner.png" alt=""/>
+            </div>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+            <!-- <div class="single-brand">
+              <img src="image/rwanda.svg" alt="" width="100"/>
+            </div> -->
+          </div>
+        </div>
+      </section>
 
-	<!-- Count Down -->
-	<script src="js/simplyCountdown.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
+      <!-- About starts -->
 
-	<script>
-    var d = new Date(new Date().getTime() + 50 * 120 * 120 * 2000);
+      <section class="about-section-01">
+        <div class="container">
+          <div class="about-shape shape">
+            <img src="image/about-left-shape.svg" alt="" />
+          </div>
+          <div class="row">
+            <div class="col-lg-6 col-md-6 col-xl-5 order-2 order-md-1">
+              <div class="about-left-content">
+                <h2>STRATEGY</h2>
+                <p>
+                  Our drive is not to be the largest but be the best. We maintain our competitive
+                  advantage through innovation as a central point of our operations, and our business
+                  processes and services continuous improvement.
+                </p>
+                <div class="about-btn">
+                  <a href=""
+                    >Get started now! <i class="icon icon-minimal-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
 
-    // default example
-    simplyCountdown('.simply-countdown-one', {
-        year: d.getFullYear(),
-        month: d.getMonth() + 1,
-        day: d.getDate()
-    });
+            <div
+              class="col-lg-6 col-md-6 col-xl-6 offset-xl-1 order-1 order-md-2"
+            >
+              <div>
+                <img src="image/africa.png" alt=""/>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    // //jQuery example
-    // $('#simply-countdown-losange').simplyCountdown({
-    //     year: d.getFullYear(),
-    //     month: d.getMonth() + 1,
-    //     day: d.getDate(),
-    //     enableUtc: false
-    // });
-</script>
+      <section class="about-section-02">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-5 col-xl-6">
+              <div>
+                <img src="image/strategy.png" alt=""/>
+              </div>
+            </div>
 
-	</body>
+            <div class="col-lg-6 col-md-6 col-xl-5 offset-xl-1">
+              <div class="about-right-content">
+                <h2>MOTIVATION</h2>
+                <p>
+                  The need for improvement of our clients, the commitment and fellowship of our team,
+                  knowledge sharing, individual excellence and our team strive through hard work.
+                </p>
+                <div class="about-btn">
+                  <a href=""
+                    >Get started now <i class="icon icon-minimal-right"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature starts -->
+
+      <section class="feature-section" id="features">
+        <div class="container position-relative">
+          <h2>WHAT WE DO!</h2> <br />
+          <div class="row mb-d-30 shape-bg">
+            <div class="shape-half test1"></div>
+            <div class="shape-half test2"></div>
+            <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-5 offset-xl-1 mb--30">
+              <div class="feature-widget">
+                <div class="widget-icon">
+                  <i class="icon icon-edit-72"></i>
+                </div>
+                <div class="content">
+                  <h5>Business Advisory</h5>
+                  <p>
+                    Consulting Process and Services
+                    . Consultations
+                    . Advisory Services
+                    . Implementation Services
+                    . Transaction Services
+                    . Staff and Other Support Services
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-5 mb--30">
+              <div class="feature-widget">
+                <div class="widget-icon">
+                  <i class="icon icon-layers-3"></i>
+                </div>
+                <div class="content">
+                  <h5>Marketing strategies for your business</h5>
+                  <p>
+                    Assist you to create approaches to increase awareness of product/service.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 offset-lg-1 col-xl-5 offset-xl-1 mb--30">
+              <div class="feature-widget">
+                <div class="widget-icon">
+                  <i class="icon icon-tablet-mobile"></i>
+                </div>
+                <div class="content">
+                  <h5>Management of your business for better growth</h5>
+                  <p>
+                    Create ideas that appeal to your audience, prospects persona, creating written or
+                    visual content around those ideas, and making that information accessible to
+                    your audience
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-5 col-xl-5 mb--30">
+              <div class="feature-widget">
+                <div class="widget-icon">
+                  <i class="icon icon-book-open-2"></i>
+                </div>
+                <div class="content">
+                  <h5>Generate ideas for your business</h5>
+                  <p>
+                    coming soon...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-10 col-lg-12 col-xl-6 mb--30">
+              <div class="feature-widget" style="padding-left:95px">
+                <div class="widget-icon">
+                  <i class="icon icon-book-open-2"></i>
+                </div>
+                <div class="content">
+                  <h5>Future aids progress</h5>
+                  <p>
+                    coming soon...
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1 col-lg-1 col-xl-6 mb--30">
+              <div class="feature-widget">
+                <div class="widget-icon">
+                  <i class="icon icon-book-open-2"></i>
+                </div>
+                <div class="content">
+                  <h5>Business start-up</h5>
+                  <p>
+                    coming soon...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing section starts -->
+      <section class="pricing-section" id="pricing">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-md-9">
+              <div class="section-title">
+                <h2>Success!</h2>
+                <p>
+                  The reality we know is, our services are all about our clients and their long-term plans, not a list
+                  of technical problem-solving services. Getting the message to your client is important.
+                  Together, we help you anticipate, correct and prevent mistakes, in businesses, aiding success.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- end of the content -->
+        </div>
+      </section>
+
+      <!-- CTA starts -->
+      <div class="cta-section" id="contact">
+        <div class="container cta-shapes-wrapper">
+          <div class="shape cta-shapes">
+            <img src="./image/cta-bg.svg" alt="" />
+            <div class="shape-inner-1">
+              <img src="./image/cta-shape1.svg" alt="" />
+            </div>
+            <div class="shape-inner-2">
+              <img src="./image/cta-shape2.svg" alt="" />
+            </div>
+          </div>
+          <div class="cta-content-wrapper">
+            <h2>Ready to get started?</h2>
+            <a href="" class="btn cta-btn">Get started now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Section -->
+      <div class="footer-section">
+        <div class="container margin-decrese">
+          <div class="row">
+            <div class="col-lg-4 col-sm-6 col-margin">
+              <span class="footer-title-sm">Help menu</span>
+              <div class="row">
+                <div class="col-lg-5 col-4">
+                  <ul class="footer-list">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Office</a></li>
+                    <li><a href="">Works</a></li>
+                    <li><a href="">Career</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-7 col-8">
+                  <ul class="footer-list">
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Help &amp; Support</a></li>
+                    <li><a href="">Privacy Policy</a></li>
+                    <li><a href="">Terms &amp; Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-xl-2 col-sm-6 col-margin">
+              <span class="footer-title-sm">Clients</span>
+              <ul class="footer-list">
+                <li><a href="">Energy Radio</a></li>
+                <li><a href="">Rwanda Government</a></li>
+                <li><a href="">Amikus Restaurant</a></li>
+                <li><a href="">La Paillote</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-5 offset-xl-1 col-margin">
+              <div class="footer-newsletter-box">
+                <span class="footer-title-sm">Subscribe to our newsletter</span>
+                <p>
+                  Subscribe to get lastest offers, news and events
+                  announcements. No spam in your inbox.
+                </p>
+                <form action="">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Enter your email address"
+                    />
+                    <button class="submit-btn">
+                      <i class="icon icon-tail-right"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Vendor JS-->
+    <script src="./plugins/jquery/jquery.min.js"></script>
+    <script src="./plugins/jquery/jquery-migrate.min.js"></script>
+    <script src="./plugins/bootstrap-4.3.1/js/bootstrap.bundle.js"></script>
+    <script src="./plugins/meanmenu/jquery.meanmenu.js"></script>
+    <!-- Plugins JS -->
+    <script src="./js/active.js"></script>
+  </body>
 </html>
