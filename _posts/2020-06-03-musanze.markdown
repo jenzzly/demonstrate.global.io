@@ -9,4 +9,4 @@ tags:
 layout: default
 ---
 
-Firs post
+My first post is coming soon.
