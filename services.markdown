@@ -1,6 +1,7 @@
 ---
 title: services
 date: 2020-06-03 14:00:00 Z
+layout: default
 ---
 
 **WHAT WE DO**
