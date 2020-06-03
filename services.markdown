@@ -4,7 +4,7 @@ date: 2020-06-03 14:00:00 Z
 layout: default
 ---
 
-**WHAT WE DO**
+# WHAT WE DO
 
 Aspects of our focus for your business are: 
 
