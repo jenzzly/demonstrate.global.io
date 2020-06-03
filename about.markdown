@@ -18,6 +18,6 @@ The most exciting part of being a business owner is watching your goals become a
 
 Our drive is not to be the largest but be the best. We maintain our competitive advantage through innovation as a central point of our operations, and our business processes and services continuous improvement.
 
-**OUR MOTIVATION **
+**OUR MOTIVATION**
 
 The need for improvement of our clients, the commitment and fellowship of our team, knowledge sharing, individual excellence and our team strive through hard work.
