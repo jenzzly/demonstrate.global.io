@@ -8,6 +8,6 @@ tags:
 - business
 ---
 
-My first post is coming soon.
+My first post is coming soon. 
 
-![image_1.jpg](/uploads/image_1.jpg)
+Thanks for waiting...
