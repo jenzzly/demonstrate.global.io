@@ -6,7 +6,6 @@ categories:
 tags:
 - musanze
 - business
-layout: default
 ---
 
 My first post is coming soon.
